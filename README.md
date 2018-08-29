@@ -27,10 +27,10 @@ Alternatives for other languages:
 
 ## Repository layout
 
-* [bin/](bin/) auxiliary scripts
-* [example/](example/) will contain a demo application
-* [src/](src/) will contain the implementation
-* [test/](test/) will contain the unit tests
+* [bin/](bin/): auxiliary scripts
+* [example/](example/): a demo application
+* [src/](src/): the implementation
+* [test/](test/): the unit tests
 
 ## Getting Started
 
@@ -146,7 +146,7 @@ In addition, you can use the [SAML Developer Tools](https://www.samltool.com/onl
 
 Launch unit tests with PHPunit:
 ```
-phpunit --stderr --testdox tests
+./vendor/bin/phpunit --stderr --testdox tests
 ```
 
 ### Linting
